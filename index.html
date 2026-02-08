@@ -195,8 +195,12 @@
     <button onclick="showPage('menu-monstres')">Monstres</button>
     <button onclick="showPage('menu-heros')">Héros</button>
     <button onclick="showPage('page-equipe')">Équipe</button>
-    <button id="auth-status" class="nav-profile" onclick="handleAuthAction()">👤 S'inscrire</button>
+    
+    <button id="btn-inscription-nav" class="nav-profile" onclick="showPage('inscription')">S'inscrire</button>
+    
+    <button id="auth-status" class="nav-profile" onclick="handleAuthAction()" style="display:none;">🚪 Déconnexion</button>
 </nav>
+
 
 
     <section id="accueil" style="display: flex; align-items: center;">
@@ -440,4 +444,4 @@ function handleAuthAction() {
 </script>
 
 </body>
-</html>
+</html>    
